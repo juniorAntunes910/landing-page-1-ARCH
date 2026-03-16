@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Variaveis */
+
+:root{
+    /*Cores */
+    --cor-principal: #f7f2e2;
+    --cor-secundaria: #f9c65e;
+    --cor-branco: #f4f3ef;
+    --cor-preto: #24201E;
+
+    /*Textos */
+        /*Tamanhos*/
+    --titulo-principal-size: 56px;
+    --titulo-secundario-size: 40px;
+    --subtitulo-principal-size: 18px;
+    --titulo-card-size: 24px;
+    --subtitle-card-size: 20px;
+    --texto-card-size: 16px;
+    --titulo-testimonial-size: 18px;
+        /*Pesos*/
+    --peso-700: 700;
+    --peso-400: 400;
+}
+
+
+body{
+      font-family: "BioRhyme", serif;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+
+}
